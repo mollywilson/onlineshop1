@@ -11,5 +11,5 @@ def index(request):
     return HttpResponse(html)
 
 
-def detail(request, album_idd):
+def detail(request, album_id):
     return HttpResponse("<h2>Details for album: " + album_id + "</h2>")
